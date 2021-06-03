@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+    <div class="background">
+    <div class="row justify-content-md-center">
+        <div class="col col-8 ">
+            <div id="topPart">
+                <div id="historyStore">
+                    <ul id="historyList">
+                        <!--Сюда историю вписываем-->
+                        <li ></li>
+                    </ul>
+                </div>
+                <div id="inputStore">
+                    <input type="text" placeholder="0"  id="input">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col col-8">
+            <button class="btn" id="btn_clear">С</button>
+        </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col col-2">
+            <button class="btn_num btn" id="btn_1">1</button>
+        </div>
+        <div class="col col-2">
+            <button class="btn_num btn" id="btn_2">2</button>
+        </div>
+        <div class="col col-2">
+            <button class="btn_num btn" id="btn_3">3</button>
+        </div>
+        <div class="col col-2">
+            <button class="btn_action btn" id="btn_plus">+</button>
+        </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col col-2">
+            <button class="btn_num btn" id="btn_4">4</button>
+        </div>
+        <div class="col col-2">
+            <button class="btn_num btn" id="btn_5">5</button>
+        </div>
+        <div class="col col-2">
+            <button class="btn_num btn" id="btn_6">6</button>
+        </div>
+        <div class="col col-2">
+            <button class="btn_action btn" id="btn_minus">-</button>
+        </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col col-2">
+            <button class="btn_num btn" id="btn_7">7</button>
+        </div>
+        <div class="col col-2">
+            <button class="btn_num btn" id="btn_8">8</button>
+        </div>
+        <div class="col col-2">
+            <button class="btn_num btn" id="btn_9">9</button>
+        </div>
+        <div class="col col-2">
+            <button class="btn_action btn" id="btn_mult">*</button>
+        </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col col-2">
+            <button class="btn_action btn" id="btn_equal">=</button>
+        </div>
+        <div class="col col-2">
+            <button class="btn_num btn" id="btn_0">0</button>
+        </div>
+        <div class="col col-2">
+            <button class="btn_action btn" id="btn_sqrt">√</button>
+        </div>
+        <div class="col col-2">
+            <button class="btn_action btn" id="btn_def">/</button>
+        </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col col-4">
+            <button class="btn_action btn" id="btn_E">E</button>
+        </div>
+        <div class="col col-4">
+            <button class="btn_num btn" id="btn_PI">PI</button>
+        </div>
+    </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
